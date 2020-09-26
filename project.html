@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz Master!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="project.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="project.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Welcome to The Quiz!</h1>
+    <img src="wizard.png">
+    <h2>I am your Quiz Master, Dumbledor!</h2>
+    <h2>I wish you the best of luck for the Quiz!</h2>
+    <form>
+      <label for="Name">Name : </label>
+      <input type="text"><br><br>
+      <label for="Email">Email : </label>
+      <input type="text"><br><br>
+    </form>
+  </div>
+
+  <div id="content">
+    <h2>Questions</h2>
+    <form name="quiz" id="quiz">
+      <p>1. Which of the following type of variable is visible everywhere in your JavaScript code?</p>
+      <p><input type="radio" name="question1" value="A"> A. global variable</p>
+      <p><input type="radio" name="question1" value="B"> B. local variable</p>
+      <p><input type="radio" name="question1" value="C"> C. none</p>
+
+      <p>2. Which built-in method removes the last element from an array and returns that element?</p>
+      <p><input type="radio" name="question2" value="A"> A. last()</p>
+      <p><input type="radio" name="question2" value="B"> B. get()</p>
+      <p><input type="radio" name="question2" value="C"> C. pop()</p>
+
+      <p>3. Which built-in method returns the characters in a string beginning at the specified location?</p>
+      <p><input type="radio" name="question3" value="A"> A. getSubstring()</p>
+      <p><input type="radio" name="question3" value="B"> B. substr()</p>
+      <p><input type="radio" name="question3" value="C"> C. slice()</p>
+
+      <p>4. Which of the following jQuery method adds the previous selection to the current selection?</p>
+      <p><input type="radio" name="question4" value="A"> A. append(selector)</p>
+      <p><input type="radio" name="question4" value="B"> B. add( selector )</p>
+      <p><input type="radio" name="question4" value="C"> C. andSelf( )</p>
+
+      <p>5. Which of the following jQuery method can be used to attach a function to be executed whenever an AJAX request is sent?</p>
+      <p><input type="radio" name="question5" value="A"> A. ajaxComplete( callback )</p>
+      <p><input type="radio" name="question5" value="B"> B. ajaxSend( callback )</p>
+      <p><input type="radio" name="question5" value="C"> C. ajaxStart( callback )</p>
+
+      <p>6. Which of the following jQuery method finds all sibling elements in front of the current element?</p>
+      <p><input type="radio" name="question6" value="A"> A. parents( selector )</p>
+      <p><input type="radio" name="question6" value="B"> B. siblings( selector )</p>
+      <p><input type="radio" name="question6" value="C"> C. prevAll( selector)</p>
+
+      <p>7. Which of the following jQuery method returns the top and left position of an element relative to its offset parent?</p>
+      <p><input type="radio" name="question7" value="A"> A.  position( )</p>
+      <p><input type="radio" name="question7" value="B"> B. offsetParent( )</p>
+      <p><input type="radio" name="question7" value="C"> C. offset( )</p>
+    </form>
+    <button type="button" class="btn btn-warning btn-lg" onclick="done()">Submit</button>
+
+  </div>
+
+  <p id="final"> </p>
+
+
+
+
+
+  <div id="footer">
+    <h4>Visit us On:</h4>
+    <i class="fa fa-twitter ficon" aria-hidden="true"></i><i class="fa fa-facebook-official ficon" aria-hidden="true"></i><i class="fa fa-instagram ficon" aria-hidden="true"></i><i class="fa fa-envelope ficonh2" aria-hidden="true"></i>
+    <p>© Copyright 2020 Sangra</p>
+  </div>
+</body>
+
+</html>
